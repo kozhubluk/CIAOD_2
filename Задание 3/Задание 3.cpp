@@ -16,7 +16,7 @@ void ans(vector <vector <int>>& a, int na, vector <vector <int>>& b, int nb);
 
 int main()
 {
-	int n1, n2; // Количество точек в 1ом и 2ом многоугольниках соответсвенно 
+	int n1, n2; // Количество точек в 1ом и 2ом многоугольниках соответственно 
 	cout << "Kol-vo tochek v 1om mnogougol`nike: ";
 	cin >> n1;
 	vector < vector <int> > figure1(n1);
