@@ -1,6 +1,6 @@
 ﻿// Дана матрица размером n*n. Выполнить транспонирование матриц.
 // Выполнить задание на динамическом массиве 
-
+#include <iomanip>
 #include<iostream>
 using namespace std;
 
@@ -71,8 +71,9 @@ void output(int m, int** a)
 	{
 		for (int j = 0; j < m; j++)
 		{
-			cout << "a[" << i+1 << "][" << j+1 << "] = " << a[i][j] << '\n';
+			cout << setw(7) << a[i][j] ;
 		}
+		cout << '\n';
 	}
 }
 
